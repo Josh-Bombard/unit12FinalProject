@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD</title>
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+</head>
+<body style="background-color: #E6E6FA;" class="container">
+
+  <!-- create a form that holds the divs for my separate parts of the object. create labels for each of the inputs, make each label match each inputs ID, make an input for name, book name, book pages, and book rating, create a button that will push the info into the URL  -->
+<br>
+<h2 style="font: bolder;" class="text-center">Book Review</h2>
+  <form style="width: 300px; border: none; background-color: #E6E6FA;" class="card">
+    <h4 style="border-bottom: solid;" class="text-center">New Book</h4>
+    <div>
+      <label for="newFullName">Name</label>
+      <input id="newFullName" type="text" placeholder="Enter Full Name Here">
+    </div>
+        <div>
+      <label for="newBook">Book Name</label>
+      <input id="newBook" type="text" placeholder="Name of Book">
+    </div>
+        <div>
+      <label for="newPages">#of Pages .</label>
+      <input id="newPages" type="number" placeholder="Number of Pages">
+    </div>
+        <div>
+      <label for="newBookRating">Rating</label>
+      <input id="newBookRating" type="number" placeholder="?/10">
+    </div>
+
+    <button type="button" class="btn btn-primary" id="submitUserInfo">Submit</button>
+
+  </form>
+
+<br>
+  <form style="width: 300px; background-color: #E6E6FA; border: none;" class="card">
+    <h4 style="border-bottom: solid;" class="text-center">Update User Info</h4>
+    <div>
+      <label for="updateID">User ID</label>
+      <input id="updateID" type="text" placeholder="Enter ID Here">
+    </div>
+    <div>
+      <label for="updateName">User Name</label>
+      <input id="updateName" type="text" placeholder="Enter New Name Here">
+    </div>
+        <div>
+      <label for="updateBook">Book</label>
+      <input id="updateBook" type="text" placeholder="Name of New Book">
+    </div>
+        <div>
+      <label for="updatePages">#of Pages</label>
+      <input id="updatePages" type="number" placeholder="Number of Pages">
+    </div>
+        <div>
+      <label for="updateRating">New Rating</label>
+      <input id="updateRating" type="text" placeholder="?/10">
+    </div>
+    <button type="button" id="updateUser" class="btn btn-warning">Update</button>
+  </form>
+<br>
+<div class="table-responsive">
+<table class="table table- table-striped table align-bottom ">
+  <thead class="table-dark">
+    <th>User ID</th>
+    <th>User Name</th>
+    <th>Book Name</th>
+    <th>Book Pages</th>
+    <th>Book Rating</th>
+    <th>Delete Student</th>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+</div>
+  
+  
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+  crossorigin="anonymous"
+></script>
+  <script src="index.js"></script>
+</body>
+</html>

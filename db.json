@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "fullName": "",
+      "bookName": "",
+      "bookPages": "",
+      "bookRating": "",
+      "id": 1
+    },
+    {
+      "fullName": "",
+      "bookName": "",
+      "bookPages": "",
+      "bookRating": "",
+      "id": 2
+    },
+    {
+      "fullName": "",
+      "bookName": "",
+      "bookPages": "",
+      "bookRating": "",
+      "id": 3
+    },
+    {
+      "fullName": "",
+      "bookName": "",
+      "bookPages": "",
+      "bookRating": "",
+      "id": 4
+    }
+  ]
+}
